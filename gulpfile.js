@@ -1,6 +1,6 @@
 'use strict';
 
-var ACTIVE_APP_NAME = "stockaide"
+var ACTIVE_APP_NAME = "phaser-cameraFollow";
 
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
