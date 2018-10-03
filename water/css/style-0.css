@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;/*reset page*/
+}
+body {
+  margin: 0;/*reset page*/
+}
+/* overall background color */
+body:after {
+	content: "";
+	position: fixed;
+	top: 0; 
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	z-index: -11;
+	background:rgba(217,217,217,1);
+}
+body {
+	color:#889499;
+}
+/* BASICS ^ */
+/* RESET */
+/* CUSTOM BELOW*/
+.scene {
+}
+
+.panel {
+    width: 100%;
+    height: 100%;
+	background: darkslategray;
+	/* rotate just rotates, perspective shrinks furthest edge*/
+    transform: perspective(1000px) rotateX(10deg);
+    transform-origin: bottom;
+}
